@@ -66,6 +66,12 @@
     <Compile Include="HTTP调试.Designer.cs">
       <DependentUpon>HTTP调试.cs</DependentUpon>
     </Compile>
+    <Compile Include="OPCUA通信.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OPCUA通信.Designer.cs">
+      <DependentUpon>OPCUA通信.cs</DependentUpon>
+    </Compile>
     <Compile Include="TCP_IP通信.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -94,6 +100,9 @@
     </Compile>
     <EmbeddedResource Include="HTTP调试.resx">
       <DependentUpon>HTTP调试.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCUA通信.resx">
+      <DependentUpon>OPCUA通信.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TCP_IP通信.resx">
       <DependentUpon>TCP_IP通信.cs</DependentUpon>

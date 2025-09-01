@@ -122,6 +122,37 @@
     <value>0, 0</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OPCUA通信.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="OPCUA通信.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OPCUA通信.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 123</value>
+  </data>
+  <data name="OPCUA通信.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OPCUA通信.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="OPCUA通信.Text" xml:space="preserve">
+    <value>OPCUA通信</value>
+  </data>
+  <data name="&gt;&gt;OPCUA通信.Name" xml:space="preserve">
+    <value>OPCUA通信</value>
+  </data>
+  <data name="&gt;&gt;OPCUA通信.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OPCUA通信.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;OPCUA通信.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="关于.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
@@ -134,7 +165,6 @@
   <data name="关于.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 41</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="关于.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
@@ -151,7 +181,7 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;关于.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="TCP_IP通信.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -181,7 +211,7 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;TCP_IP通信.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="label_公告.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -211,7 +241,7 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;label_公告.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="HTTP请求调试.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -241,7 +271,7 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;HTTP请求调试.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="本机网络调试.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -271,7 +301,7 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;本机网络调试.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
     <value>splitContainer1.Panel1</value>
@@ -1548,9 +1578,6 @@
         ////////////////////////////////////////////////////////////////////////////////
         //////////////////////////////////8=
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 3, 2, 3</value>

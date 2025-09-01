@@ -34,6 +34,10 @@ namespace 网络工具
         {
             切换页面(TCP_IP通信, TCP_IP通信_页面);
         }
+        private void OPCUA通信_Click(object sender, EventArgs e)
+        {
+            //切换页面(OPCUA通信, OPCUA通信_页面);
+        }
 
         //══════════════════════════ 功能实现 ══════════════════════════
 
@@ -42,7 +46,7 @@ namespace 网络工具
         private void 切换页面(Button 变色按钮,Control  name)
         {
             //更改导航栏按钮颜色
-            TCP_IP通信.BackColor=关于.BackColor=HTTP请求调试.BackColor=本机网络调试.BackColor=System.Drawing.ColorTranslator.FromHtml("#FFFFFF");
+            OPCUA通信.BackColor=TCP_IP通信.BackColor=关于.BackColor=HTTP请求调试.BackColor=本机网络调试.BackColor=System.Drawing.ColorTranslator.FromHtml("#FFFFFF");
             变色按钮.BackColor=System.Drawing.ColorTranslator.FromHtml("#56baed");
 
             //更改页面显示
