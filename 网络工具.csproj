@@ -149,22 +149,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HTTP调试.cs">
+    <Compile Include="二级页面\HTTP调试.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="HTTP调试.Designer.cs">
+    <Compile Include="二级页面\HTTP调试.Designer.cs">
       <DependentUpon>HTTP调试.cs</DependentUpon>
     </Compile>
-    <Compile Include="OPCUA通信.cs">
+    <Compile Include="二级页面\OPCUA通信.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="OPCUA通信.Designer.cs">
+    <Compile Include="二级页面\OPCUA通信.Designer.cs">
       <DependentUpon>OPCUA通信.cs</DependentUpon>
     </Compile>
-    <Compile Include="TCP_IP通信.cs">
+    <Compile Include="二级页面\TCP_IP通信.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TCP_IP通信.Designer.cs">
+    <Compile Include="二级页面\TCP_IP通信.Designer.cs">
       <DependentUpon>TCP_IP通信.cs</DependentUpon>
     </Compile>
     <Compile Include="Yuan.cs">
@@ -175,25 +175,25 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="关于页面.cs">
+    <Compile Include="二级页面\关于页面.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="关于页面.Designer.cs">
+    <Compile Include="二级页面\关于页面.Designer.cs">
       <DependentUpon>关于页面.cs</DependentUpon>
     </Compile>
-    <Compile Include="本机调试.cs">
+    <Compile Include="二级页面\本机调试.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="本机调试.Designer.cs">
+    <Compile Include="二级页面\本机调试.Designer.cs">
       <DependentUpon>本机调试.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="HTTP调试.resx">
+    <EmbeddedResource Include="二级页面\HTTP调试.resx">
       <DependentUpon>HTTP调试.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OPCUA通信.resx">
+    <EmbeddedResource Include="二级页面\OPCUA通信.resx">
       <DependentUpon>OPCUA通信.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TCP_IP通信.resx">
+    <EmbeddedResource Include="二级页面\TCP_IP通信.resx">
       <DependentUpon>TCP_IP通信.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Yuan.resx">
@@ -211,10 +211,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="关于页面.resx">
+    <EmbeddedResource Include="二级页面\关于页面.resx">
       <DependentUpon>关于页面.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="本机调试.resx">
+    <EmbeddedResource Include="二级页面\本机调试.resx">
       <DependentUpon>本机调试.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />
