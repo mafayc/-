@@ -36,7 +36,7 @@ namespace 网络工具
         }
         private void OPCUA通信_Click(object sender, EventArgs e)
         {
-            //切换页面(OPCUA通信, OPCUA通信_页面);
+            切换页面(OPCUA通信, OPCUA通信_页面);
         }
 
         //══════════════════════════ 功能实现 ══════════════════════════

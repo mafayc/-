@@ -17,10 +17,6 @@ namespace 网络工具
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new 网络工具.主页面());
-
-
-            
-
         }
     }
 }

@@ -31,6 +31,7 @@ namespace 网络工具
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(主页面));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.OPCUA通信 = new System.Windows.Forms.Button();
             this.关于 = new System.Windows.Forms.Button();
             this.TCP_IP通信 = new System.Windows.Forms.Button();
             this.label_公告 = new System.Windows.Forms.Label();
@@ -40,7 +41,7 @@ namespace 网络工具
             this.HTTP调试_窗口 = new 网络工具.HTTP调试();
             this.关于页面_窗口 = new 网络工具.关于页面();
             this.TCP_IP通信_页面 = new 网络工具.TCP_IP通信();
-            this.OPCUA通信 = new System.Windows.Forms.Button();
+            this.OPCUA通信_页面 = new 网络工具.OPCUA通信();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -65,10 +66,18 @@ namespace 网络工具
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.splitContainer1.Panel2.Controls.Add(this.OPCUA通信_页面);
             this.splitContainer1.Panel2.Controls.Add(this.本机调试_窗口);
             this.splitContainer1.Panel2.Controls.Add(this.HTTP调试_窗口);
             this.splitContainer1.Panel2.Controls.Add(this.关于页面_窗口);
             this.splitContainer1.Panel2.Controls.Add(this.TCP_IP通信_页面);
+            // 
+            // OPCUA通信
+            // 
+            resources.ApplyResources(this.OPCUA通信, "OPCUA通信");
+            this.OPCUA通信.Name = "OPCUA通信";
+            this.OPCUA通信.UseVisualStyleBackColor = true;
+            this.OPCUA通信.Click += new System.EventHandler(this.OPCUA通信_Click);
             // 
             // 关于
             // 
@@ -127,12 +136,10 @@ namespace 网络工具
             resources.ApplyResources(this.TCP_IP通信_页面, "TCP_IP通信_页面");
             this.TCP_IP通信_页面.Name = "TCP_IP通信_页面";
             // 
-            // OPCUA通信
+            // OPCUA通信_页面
             // 
-            resources.ApplyResources(this.OPCUA通信, "OPCUA通信");
-            this.OPCUA通信.Name = "OPCUA通信";
-            this.OPCUA通信.UseVisualStyleBackColor = true;
-            this.OPCUA通信.Click += new System.EventHandler(this.OPCUA通信_Click);
+            resources.ApplyResources(this.OPCUA通信_页面, "OPCUA通信_页面");
+            this.OPCUA通信_页面.Name = "OPCUA通信_页面";
             // 
             // 主页面
             // 
@@ -164,6 +171,7 @@ namespace 网络工具
         private 关于页面 关于页面_窗口;
         private TCP_IP通信 TCP_IP通信_页面;
         private System.Windows.Forms.Button OPCUA通信;
+        private OPCUA通信 OPCUA通信_页面;
     }
 }
 
