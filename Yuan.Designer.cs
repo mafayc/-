@@ -66,11 +66,11 @@ namespace 网络工具
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.splitContainer1.Panel2.Controls.Add(this.OPCUA通信_页面);
             this.splitContainer1.Panel2.Controls.Add(this.本机调试_窗口);
             this.splitContainer1.Panel2.Controls.Add(this.HTTP调试_窗口);
             this.splitContainer1.Panel2.Controls.Add(this.关于页面_窗口);
             this.splitContainer1.Panel2.Controls.Add(this.TCP_IP通信_页面);
+            this.splitContainer1.Panel2.Controls.Add(this.OPCUA通信_页面);
             // 
             // OPCUA通信
             // 

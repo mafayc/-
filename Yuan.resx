@@ -315,27 +315,6 @@
   <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="OPCUA通信_页面.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="OPCUA通信_页面.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 1000</value>
-  </data>
-  <data name="OPCUA通信_页面.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;OPCUA通信_页面.Name" xml:space="preserve">
-    <value>OPCUA通信_页面</value>
-  </data>
-  <data name="&gt;&gt;OPCUA通信_页面.Type" xml:space="preserve">
-    <value>网络工具.OPCUA通信, 网络工具, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;OPCUA通信_页面.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;OPCUA通信_页面.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="本机调试_窗口.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -355,7 +334,7 @@
     <value>splitContainer1.Panel2</value>
   </data>
   <data name="&gt;&gt;本机调试_窗口.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="HTTP调试_窗口.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -376,7 +355,7 @@
     <value>splitContainer1.Panel2</value>
   </data>
   <data name="&gt;&gt;HTTP调试_窗口.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="关于页面_窗口.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -397,7 +376,7 @@
     <value>splitContainer1.Panel2</value>
   </data>
   <data name="&gt;&gt;关于页面_窗口.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="TCP_IP通信_页面.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -421,6 +400,27 @@
     <value>splitContainer1.Panel2</value>
   </data>
   <data name="&gt;&gt;TCP_IP通信_页面.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="OPCUA通信_页面.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="OPCUA通信_页面.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 1000</value>
+  </data>
+  <data name="OPCUA通信_页面.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;OPCUA通信_页面.Name" xml:space="preserve">
+    <value>OPCUA通信_页面</value>
+  </data>
+  <data name="&gt;&gt;OPCUA通信_页面.Type" xml:space="preserve">
+    <value>网络工具.OPCUA通信, 网络工具, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;OPCUA通信_页面.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;OPCUA通信_页面.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
