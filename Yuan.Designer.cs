@@ -37,11 +37,11 @@ namespace 网络工具
             this.label_公告 = new System.Windows.Forms.Label();
             this.HTTP请求调试 = new System.Windows.Forms.Button();
             this.本机网络调试 = new System.Windows.Forms.Button();
+            this.OPCUA通信_页面 = new 网络工具.OPCUA通信();
             this.本机调试_窗口 = new 网络工具.本机调试();
             this.HTTP调试_窗口 = new 网络工具.HTTP调试();
             this.关于页面_窗口 = new 网络工具.关于页面();
             this.TCP_IP通信_页面 = new 网络工具.TCP_IP通信();
-            this.OPCUA通信_页面 = new 网络工具.OPCUA通信();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -114,6 +114,11 @@ namespace 网络工具
             this.本机网络调试.UseVisualStyleBackColor = false;
             this.本机网络调试.Click += new System.EventHandler(this.本机网络调试_Click);
             // 
+            // OPCUA通信_页面
+            // 
+            resources.ApplyResources(this.OPCUA通信_页面, "OPCUA通信_页面");
+            this.OPCUA通信_页面.Name = "OPCUA通信_页面";
+            // 
             // 本机调试_窗口
             // 
             this.本机调试_窗口.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -135,11 +140,6 @@ namespace 网络工具
             // 
             resources.ApplyResources(this.TCP_IP通信_页面, "TCP_IP通信_页面");
             this.TCP_IP通信_页面.Name = "TCP_IP通信_页面";
-            // 
-            // OPCUA通信_页面
-            // 
-            resources.ApplyResources(this.OPCUA通信_页面, "OPCUA通信_页面");
-            this.OPCUA通信_页面.Name = "OPCUA通信_页面";
             // 
             // 主页面
             // 

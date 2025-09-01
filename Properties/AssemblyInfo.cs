@@ -33,4 +33,4 @@ using System.Runtime.InteropServices;
 //通过使用 "*"，如下所示:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.1.0.0")]//引用库版本
-[assembly: AssemblyFileVersion("4.1.1.1")]//程序版本
+[assembly: AssemblyFileVersion("4.2.1.1")]//程序版本
