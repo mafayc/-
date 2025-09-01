@@ -62,7 +62,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>ip.ico</ApplicationIcon>
+    <ApplicationIcon>媒体资源\ip.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>E1522B5B188A36BC7EA5D3129D8AA1EDB5F5C302</ManifestCertificateThumbprint>
@@ -236,7 +236,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
-    <Content Include="ip.ico" />
+    <Content Include="媒体资源\ip.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
